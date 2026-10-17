@@ -1,1 +1,644 @@
 
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="theme-color" content="#74004F">
+  <meta name="description" content="Conheça a Sorveteria Sabor Ao Creme, em Cambé - PR. Confira nossas categorias de sorvetes, açaí, localização e informações de contato.">
+
+  <title>Sabor Ao Creme | Sorveteria e Açaíteria em Cambé</title>
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Folha de estilos -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header" id="inicio">
+    <div class="container header-container">
+
+      <a href="#inicio" class="logo" aria-label="Sabor Ao Creme - Início">
+        <span class="logo-icon" aria-hidden="true">
+          <i class="fa-solid fa-ice-cream"></i>
+        </span>
+
+        <span class="logo-text">
+          <strong>Sabor Ao Creme</strong>
+          <small>SORVETERIA E AÇAÍTERIA</small>
+        </span>
+      </a>
+
+      <nav class="navigation" id="navigation" aria-label="Menu principal">
+        <a href="#inicio">Início</a>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#localizacao">Localização</a>
+      </nav>
+
+      <a
+        class="btn btn-primary header-cta"
+        data-whatsapp
+        href="#contato"
+        aria-label="Entrar em contato com a sorveteria"
+      >
+        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        Fale conosco
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        aria-controls="navigation"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+    </div>
+  </header>
+
+  <main>
+
+    <!-- Apresentação principal -->
+    <section class="hero">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-container">
+
+        <div class="hero-content">
+
+          <span class="eyebrow">
+            <i class="fa-solid fa-heart" aria-hidden="true"></i>
+            Um carinho em forma de sabor
+          </span>
+
+          <h1>
+            Seu momento mais doce
+            <span>começa aqui!</span>
+          </h1>
+
+          <p>
+            Sabores que encantam, cremosidade em cada colherada
+            e aquele carinho especial para deixar seu dia mais gostoso.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#cardapio" class="btn btn-primary">
+              Conheça nosso cardápio
+              <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+            </a>
+
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=Avenida+Antonio+Raminelli+475+Cambe+PR"
+              class="btn btn-secondary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              Como chegar
+            </a>
+          </div>
+
+          <div class="hero-social-proof">
+            <div class="hero-stars" aria-label="Avaliação informada de 4,7 de 5">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <strong>4,7/5</strong>
+            </div>
+
+            <p>
+              Avaliação informada no Google
+              <span>103 avaliações — confirmar antes de publicar</span>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="hero-decoration" aria-hidden="true">
+          <span class="decoration-circle circle-one"></span>
+          <span class="decoration-circle circle-two"></span>
+
+          <div class="hero-sticker">
+            <i class="fa-solid fa-ice-cream"></i>
+            <span>Mais sabor</span>
+            <strong>no seu dia!</strong>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="hero-bottom-shape" aria-hidden="true"></div>
+    </section>
+
+    <!-- Faixa de destaques -->
+    <section class="highlights" aria-label="Destaques">
+      <div class="container highlights-container">
+
+        <div class="highlight-item">
+          <span class="highlight-icon">
+            <i class="fa-solid fa-ice-cream" aria-hidden="true"></i>
+          </span>
+          <div>
+            <strong>Momentos doces</strong>
+            <p>Uma pausa para aproveitar</p>
+          </div>
+        </div>
+
+        <div class="highlight-item">
+          <span class="highlight-icon">
+            <i class="fa-solid fa-heart" aria-hidden="true"></i>
+          </span>
+          <div>
+            <strong>Feito para você</strong>
+            <p>Carinho em cada visita</p>
+          </div>
+        </div>
+
+        <div class="highlight-item">
+          <span class="highlight-icon">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+          </span>
+          <div>
+            <strong>Estamos em Cambé</strong>
+            <p>Venha nos conhecer</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Cardápio -->
+    <section class="section menu-section" id="cardapio">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">Um mundo de sabor</span>
+
+          <h2>
+            Descubra nossas
+            <span>delícias</span>
+          </h2>
+
+          <p>
+            Conheça nossas categorias e encontre uma opção
+            para deixar seu dia ainda mais gostoso.
+          </p>
+        </div>
+
+        <div class="menu-grid">
+
+          <article class="menu-card">
+            <div class="menu-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=85"
+                alt="Sorvetes coloridos servidos em uma composição apetitosa"
+                loading="lazy"
+              >
+              <span class="menu-card-number">01</span>
+            </div>
+
+            <div class="menu-card-content">
+              <span class="card-label">Para adoçar o dia</span>
+              <h3>Sorvetes</h3>
+              <p>
+                Uma categoria clássica para quem deseja
+                aproveitar uma sobremesa gelada.
+              </p>
+              <a href="#contato" class="text-link">
+                Quero conhecer
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="menu-card menu-card-featured">
+            <div class="menu-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1490474418585-ba9bad8fd0ea?auto=format&fit=crop&w=800&q=85"
+                alt="Preparação de frutas e acompanhamentos para sobremesas"
+                loading="lazy"
+              >
+              <span class="menu-card-number">02</span>
+            </div>
+
+            <div class="menu-card-content">
+              <span class="card-label">Uma pausa especial</span>
+              <h3>Açaí</h3>
+              <p>
+                Uma categoria para quem gosta de sobremesas
+                geladas e combinações com frutas.
+              </p>
+              <a href="#contato" class="text-link">
+                Quero conhecer
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+          <article class="menu-card">
+            <div class="menu-card-image">
+              <img
+                src="https://images.unsplash.com/photo-1488900128323-21503983a07e?auto=format&fit=crop&w=800&q=85"
+                alt="Sobremesa gelada apresentada em recipiente"
+                loading="lazy"
+              >
+              <span class="menu-card-number">03</span>
+            </div>
+
+            <div class="menu-card-content">
+              <span class="card-label">Para todos os momentos</span>
+              <h3>Outras delícias</h3>
+              <p>
+                Descubra outras possibilidades para
+                aproveitar um momento doce.
+              </p>
+              <a href="#contato" class="text-link">
+                Quero conhecer
+                <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+              </a>
+            </div>
+          </article>
+
+        </div>
+
+        <p class="menu-disclaimer">
+          As categorias são ilustrativas. Consulte a sorveteria
+          para confirmar os produtos e a disponibilidade.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- Galeria -->
+    <section class="section gallery-section" id="galeria">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">Uma experiência deliciosa</span>
+
+          <h2>
+            Um convite para
+            <span>experimentar</span>
+          </h2>
+
+          <p>
+            Uma seleção visual para despertar a vontade
+            de aproveitar uma boa sobremesa.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+
+          <figure class="gallery-item gallery-large">
+            <img
+              src="https://images.unsplash.com/photo-1560008581-09826d1de69e?auto=format&fit=crop&w=1000&q=85"
+              alt="Sorvete servido em casquinha"
+              loading="lazy"
+            >
+            <figcaption>
+              <span>Um clássico irresistível</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1501446529957-6226bd447c46?auto=format&fit=crop&w=800&q=85"
+              alt="Sorvete gelado em uma apresentação colorida"
+              loading="lazy"
+            >
+            <figcaption>
+              <span>Momentos refrescantes</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=800&q=85"
+              alt="Sobremesa de sorvete com cobertura"
+              loading="lazy"
+            >
+            <figcaption>
+              <span>Uma pausa doce</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-item">
+            <img
+              src="https://images.unsplash.com/photo-1517093157656-b9eccef91cb1?auto=format&fit=crop&w=800&q=85"
+              alt="Sobremesa gelada com frutas"
+              loading="lazy"
+            >
+            <figcaption>
+              <span>Cores e sabores</span>
+            </figcaption>
+          </figure>
+
+        </div>
+
+        <p class="gallery-disclaimer">
+          Fotografias ilustrativas, não necessariamente dos produtos
+          servidos pela Sorveteria Sabor Ao Creme.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="section about-section" id="sobre">
+      <div class="container about-container">
+
+        <div class="about-visual">
+          <div class="about-image-main">
+            <img
+              src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=1000&q=85"
+              alt="Composição de sorvetes"
+              loading="lazy"
+            >
+          </div>
+
+          <div class="about-badge">
+            <i class="fa-solid fa-heart" aria-hidden="true"></i>
+            <span>Um momento</span>
+            <strong>mais doce</strong>
+          </div>
+
+          <span class="about-dot dot-one" aria-hidden="true"></span>
+          <span class="about-dot dot-two" aria-hidden="true"></span>
+        </div>
+
+        <div class="about-content">
+          <span class="eyebrow">Conheça nossa sorveteria</span>
+
+          <h2>
+            Feito com carinho para
+            <span>adoçar seus momentos</span>
+          </h2>
+
+          <p>
+            A Sorveteria Sabor Ao Creme é uma sorveteria e
+            açaíteria localizada no Parque Residencial Ana Rosa,
+            em Cambé, Paraná.
+          </p>
+
+          <p>
+            Com uma proposta voltada a proporcionar momentos
+            mais gostosos, o estabelecimento reúne opções para
+            quem deseja aproveitar uma sobremesa e tornar o dia
+            mais especial.
+          </p>
+
+          <a
+            href="https://www.google.com/maps/dir/?api=1&destination=Avenida+Antonio+Raminelli+475+Cambe+PR"
+            class="btn btn-primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Venha nos conhecer
+            <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Avaliações -->
+    <section class="section reviews-section" id="avaliacoes">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">A opinião dos clientes</span>
+
+          <h2>
+            Sua próxima pausa
+            <span>pode ser aqui</span>
+          </h2>
+
+          <p>
+            Consulte as avaliações públicas e conheça
+            as experiências compartilhadas pelos clientes.
+          </p>
+        </div>
+
+        <div class="review-summary">
+
+          <div class="review-score">
+            <span class="google-label">
+              <i class="fa-brands fa-google" aria-hidden="true"></i>
+              Perfil no Google
+            </span>
+
+            <strong class="score-number">4,7</strong>
+
+            <div class="review-stars" aria-label="Nota informada de 4,7 de 5">
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+              <i class="fa-solid fa-star" aria-hidden="true"></i>
+            </div>
+
+            <p>103 avaliações informadas</p>
+
+            <small>Nota e quantidade precisam ser confirmadas antes da publicação.</small>
+
+            <a
+              href="https://www.google.com/search?q=Sorveteria+Sabor+Ao+Creme+Cambe+avaliacoes"
+              class="btn btn-primary"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ver avaliações reais
+            </a>
+          </div>
+
+          <div class="review-message">
+            <span class="review-quote" aria-hidden="true">“</span>
+
+            <h3>Conheça as experiências de quem já passou por aqui.</h3>
+
+            <p>
+              Confira as avaliações diretamente no Google e descubra
+              o que os clientes compartilham sobre a sorveteria.
+            </p>
+
+            <a
+              href="https://www.google.com/search?q=Sorveteria+Sabor+Ao+Creme+Cambe+avaliacoes"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-link"
+            >
+              Consultar no Google
+              <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i>
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Localização e horários -->
+    <section class="section location-section" id="localizacao">
+      <div class="container">
+
+        <div class="section-heading">
+          <span class="eyebrow">Estamos esperando por você</span>
+
+          <h2>
+            Venha nos
+            <span>visitar</span>
+          </h2>
+
+          <p>
+            Encontre a Sorveteria Sabor Ao Creme em Cambé
+            e planeje sua visita.
+          </p>
+        </div>
+
+        <div class="location-grid">
+
+          <div class="location-info">
+
+            <div class="info-card">
+              <span class="info-icon">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              </span>
+
+              <div>
+                <h3>Nosso endereço</h3>
+                <address>
+                  Avenida Antônio Raminelli, 475<br>
+                  Parque Residencial Ana Rosa<br>
+                  Cambé — PR, CEP 86183-392
+                </address>
+
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=Avenida+Antonio+Raminelli+475+Cambe+PR"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-link"
+                >
+                  Traçar rota
+                  <i class="fa-solid fa-arrow-right" aria-hidden="true"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <span class="info-icon">
+                <i class="fa-regular fa-clock" aria-hidden="true"></i>
+              </span>
+
+              <div>
+                <h3>Horário de atendimento</h3>
+
+                <p class="schedule-pending">
+                  Horários pendentes de confirmação.
+                </p>
+
+                <ul class="opening-hours">
+                  <li><span>Segunda a sábado</span><strong>14h às 22h</strong></li>
+                  <li><span>Domingo</span><strong>12h às 22h</strong></li>
+                </ul>
+
+                <small>
+                  O Instagram informa 13h às 22h todos os dias.
+                  Confirme os horários com o estabelecimento antes de publicar.
+                </small>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="map-container">
+            <iframe
+              src="https://maps.google.com/maps?q=Avenida%20Antonio%20Raminelli%20475%20Cambe%20PR&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              title="Mapa da Sorveteria Sabor Ao Creme em Cambé"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=Avenida+Antonio+Raminelli+475+Cambe+PR"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="map-link"
+            >
+              <i class="fa-solid fa-location-arrow" aria-hidden="true"></i>
+              Abrir no Google Maps
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contato -->
+    <section class="contact-section" id="contato">
+      <div class="container contact-container">
+
+        <div class="contact-content">
+          <span class="eyebrow">Vamos adoçar seu dia?</span>
+
+          <h2>
+            Estamos esperando
+            <span>por você!</span>
+          </h2>
+
+          <p>
+            Acompanhe nossas redes sociais para conhecer
+            melhor a Sorveteria Sabor Ao Creme.
+          </p>
+
+          <div class="contact-buttons">
+
+            <a
+              href="https://www.instagram.com/saboraocreme0218/"
+              class="btn btn-light"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+              Instagram
+            </a>
+
+            <a
+              href="https://www.facebook.com/search/top?q=Sorveteria%20Sabor%20Ao%20creme"
+              class="btn btn-outline-light"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+              Facebook
+            </a>
+
+            <a
+              data-whatsapp
+              href="#localizacao"
+              class="btn btn-whatsapp"
+              aria-label="Entrar em contato pelo WhatsApp"
+            >
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+              Fale pelo WhatsApp
+            </a>
+
+          </div>
+
+          <small class="contact-note">
+            O WhatsAp
