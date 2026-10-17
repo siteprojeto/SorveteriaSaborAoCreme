@@ -1358,3 +1358,11 @@ p {
     font-size: clamp(2.2rem, 9vw, 3.2rem);
   }
 }
+
+.hero-sticker img {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+  object-fit: contain;
+}
