@@ -1296,4 +1296,7 @@ p {
 
 .footer-socials a:hover {
   background: var(--yellow);
-  border-color: var(--yello
+  border-color: var(--yellow);
+  color: var(--purple);
+}
+                    
