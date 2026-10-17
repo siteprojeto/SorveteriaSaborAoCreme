@@ -1299,4 +1299,60 @@ p {
   border-color: var(--yellow);
   color: var(--purple);
 }
-                    
+
+/* RESPONSIVIDADE PARA CELULARES E TABLETS */
+
+@media (max-width: 768px) {
+  .container {
+    width: calc(100% - 32px);
+    max-width: 100%;
+  }
+
+  .header-container {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .navigation {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero-container {
+    min-height: auto;
+    padding-top: 55px;
+    padding-bottom: 65px;
+  }
+
+  .highlights-container,
+  .menu-grid,
+  .about-container,
+  .review-summary,
+  .location-grid,
+  .contact-container {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .gallery-grid {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto;
+  }
+
+  .gallery-item,
+  .gallery-large {
+    min-height: 230px;
+    grid-row: auto;
+  }
+
+  .about-container {
+    gap: 35px;
+  }
+
+  .contact-container {
+    gap: 20px;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.2rem, 9vw, 3.2rem);
+  }
+}
