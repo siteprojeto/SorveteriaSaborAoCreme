@@ -1304,8 +1304,10 @@ p {
 
 @media (max-width: 768px) {
   .container {
-    width: calc(100% - 32px);
+    width: calc(100% - 24px);
     max-width: 100%;
+    margin left: auto;
+    margin right: auto;
   }
 
   .header-container {
