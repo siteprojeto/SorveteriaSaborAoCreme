@@ -1359,10 +1359,32 @@ p {
   }
 }
 
+.hero-sticker {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  overflow: hidden;
+  z-index: 3;
+}
+
 .hero-sticker img {
-  display: block;
   width: 100%;
-  max-width: 280px;
-  height: auto;
+  height: 100%;
   object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hero-sticker {
+    width: 110px;
+    height: 110px;
+    right: 16px;
+    top: auto;
+    bottom: 100px;
+    transform: none;
+  }
 }
